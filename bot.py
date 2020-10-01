@@ -26,6 +26,7 @@ async def randomise(ctx):
     if lone:
         text += f'\n\nLone: {lone}'
     await ctx.send(f"Randomised all server members into pairs:\n{text}")
+                     
 @bot.command()
 async def ping(ctx):
     """Returns bot latency"""
