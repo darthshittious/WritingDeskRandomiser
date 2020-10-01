@@ -28,7 +28,7 @@ async def randomise(ctx):
     await ctx.send(f"Randomised all server members into pairs:\n{text}")
 @bot.command()
 async def ping(ctx):
-    """Retruns bot latency"""
+    """Returns bot latency"""
     await ctx.send(f"Pong! {round(bot.latency * 1000)}ms")
 
 bot.run(TOKEN)
