@@ -10,4 +10,4 @@ A really simple discord bot for dante's writing desk server. It's public just so
  - Create a file called config.py in the same directory as these files and add in the line `TOKEN = '' # put your bot's token within the quotes`
  - To finally run the bot using python, simply enter `python3 bot.py` from terminal in the same directory as the file.
  - Kill the running file by using cmd + C or ctrl + C when done.
- - To host perpetually use systemd to host on a linux virtual machine
+ - To host perpetually use systemd to host on an Ubuntu virtual machine, since that's really easy to configure.
